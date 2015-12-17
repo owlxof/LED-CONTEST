@@ -12,7 +12,7 @@ weiss = "\xff\xff\xff"
 
 # CODE:
 
-while True:
+for i in range(1,10000):
 	for l in range (1,15):
 		leiste = l-1
 		msg = ""
@@ -24,5 +24,5 @@ while True:
 		sock = socket.socket(socket.AF_INET, # Internet
 		socket.SOCK_DGRAM) # UDP
 		sock.sendto(msg, (UDP_IP, UDP_PORT))
-	sleep(0.1)
+	#sleep(0.1)
 
