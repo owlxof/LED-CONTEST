@@ -13,7 +13,7 @@ weiss = "\xff\xff\xff"
 # CODE:
 
 for i in range(1,10000):
-	for l in range (1,15):
+	for l in range (1,16):
 		leiste = l-1
 		msg = ""
 		msg += chr(leiste)
